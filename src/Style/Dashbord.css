@@ -1,0 +1,48 @@
+.dashbord {
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AppGlass {
+    padding: 8px;
+    display: grid;
+    width: 98%;
+    height: 98%;
+    border-radius: 2rem; 
+    background-color: rgb(243, 241, 241);
+    overflow: scroll;
+    grid-template-columns: 15rem auto;  
+}
+/* sidebar  */
+.sidebar{
+    border-right: 4px solid white;
+}
+/* menu  */
+
+.dashbordMenu li i{
+    padding: 0 5px;
+    font-size: 18px;
+}
+.dashbord_link{
+    background-color: transparent!important;
+}
+.dashbordMenu li span,
+.dashbordMenu li i{
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(112, 112, 112)!important;
+}
+
+.dashbordMenu li{
+    margin: 20px 8px;
+}
+.dashbordNavbarinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

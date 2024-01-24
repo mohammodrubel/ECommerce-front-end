@@ -1,0 +1,9 @@
+.offer{
+    background: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.548)),url('../img/13-2-shopping-free-png-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}

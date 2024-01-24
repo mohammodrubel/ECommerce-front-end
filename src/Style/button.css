@@ -1,0 +1,26 @@
+.btn-10 {
+    transition: all 0.3s ease;
+    overflow: hidden;
+    padding: 8px;
+  }
+  .btn-10:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(.1);
+    transform: scale(.1);
+  }
+  .btn-10:hover {
+    color: black;
+  }
+  .btn-10:hover:after {
+    background: #FED700;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  

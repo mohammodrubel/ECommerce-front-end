@@ -1,0 +1,50 @@
+.megamenu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 70px;
+    background-color: #fff;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.7s;
+  }
+  
+  .shopLink:hover .megamenu {
+    top: 68px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .desktopNavMenu{
+        display: none;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.desktopNavMenu{
+    display: none;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*Extra extra  large devices (larges desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}

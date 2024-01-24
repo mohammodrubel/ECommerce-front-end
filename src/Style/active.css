@@ -1,0 +1,37 @@
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    background-color: #16a34a; /* Replace with your preferred background color */
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+.Inactive {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+    display: inline-block;
+    background-color: red; /* Replace with your preferred background color */
+    animation: fade 2s ease-in-out infinite;
+  }
+  
+  @keyframes fade {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+

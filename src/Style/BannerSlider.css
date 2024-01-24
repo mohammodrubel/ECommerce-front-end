@@ -1,0 +1,65 @@
+
+.slick-active.slick-current .content {
+    display: flex;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUpAnimation 3s ease-in-out;
+}
+
+@keyframes fadeUpAnimation {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.slick-dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.slick-dots li {
+    width: 16px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.slick-dots li button {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+    font-size: 0; /* Set font size to 0 to hide any text content */
+}
+
+.slick-dots li.slick-active {
+    background-color: #FED700;
+    opacity: 1;
+}
+
+/* Adjust the styling of inactive dots */
+.slick-dots li:not(.slick-active) {
+    opacity: 0.7;
+}
+.slick-dots li.slick-active button:before {
+    width: 20px;
+    height: 10px;
+    opacity: 1;
+    color: transparent;
+    transition: all 0.5s;
+    font-size: 0; /* Set font size to 0 to hide any text content */
+}
+
+/* Optional: Adjust the styling of inactive dots */
+.slick-dots li:not(.slick-active) button:before {
+    width: 16px;
+    height: 8px;
+    opacity: 0.7;
+    font-size: 0; /* Set font size to 0 to hide any text content */
+}
